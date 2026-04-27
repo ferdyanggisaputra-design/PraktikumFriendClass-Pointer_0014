@@ -53,4 +53,16 @@ int main() {
     LayangLayang ObjectLayang;
     BelahKetupat ObjectBelah;
 
-    
+// input data
+    ObjectLayang.inputData();
+    ObjectBelah.inputData();
+
+    cout << "\n--- Hasil Luas ---" << endl;
+    cout << "Luas Layang-Layang : " << ObjectLayang.hitungLuas() << endl;
+    cout << "Luas Belah Ketupat : " << ObjectBelah.hitungLuas() << endl;
+
+    cout << "\n--- Keliling ---" << endl;
+    tampilkanKeliling(ObjectBelah);
+
+    return 0;
+}           

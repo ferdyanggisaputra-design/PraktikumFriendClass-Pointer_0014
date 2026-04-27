@@ -36,33 +36,4 @@ public:
         cin >> sisi;
     }
 
-    double hitungLuas() {
-        return 0.5 * d1 * d2;
-    }
-
-    double hitungKeliling() {
-        return 4 * sisi;
-    }
-};
-
-void tampilkanKeliling(BelahKetupat &bk) {
-    cout << "Keliling Belah Ketupat : " << bk.hitungKeliling() << endl;
-}
-
-int main() {
-    LayangLayang ObjectLayang;
-    BelahKetupat ObjectBelah;
-
-    // input data
-    ObjectLayang.inputData();
-    ObjectBelah.inputData();
-
-    cout << "\n--- Hasil Luas ---" << endl;
-    cout << "Luas Layang-Layang : " << ObjectLayang.hitungLuas() << endl;
-    cout << "Luas Belah Ketupat : " << ObjectBelah.hitungLuas() << endl;
-
-    cout << "\n--- Keliling ---" << endl;
-    tampilkanKeliling(ObjectBelah);
-
-    return 0;
-}   
+    

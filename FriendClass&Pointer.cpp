@@ -45,3 +45,7 @@ double hitungLuas() {
     }
 };
 
+void tampilkanKeliling(BelahKetupat &bk) {
+    cout << "Keliling Belah Ketupat : " << bk.hitungKeliling() << endl;
+}
+

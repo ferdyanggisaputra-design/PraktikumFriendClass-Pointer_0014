@@ -16,4 +16,3 @@ public:
         cin >> d2;
     }
 
-    
